@@ -565,10 +565,10 @@ function checking_winner()
 
 
 
-    if(row11 != "" && row12 != "" && row13 != "" && row21 != "" && row22 != "" && row23 != "" && row31 != "" && row32 != "" && row33 != "")
+    if(row11 != "" && row12 != "" && row13 != "" && row21 != "" && row22 != "" && row23 != "" && row31 != "" && row32 != "" && row33 != "" && termination == false)
     {
         document.getElementById("game_over").innerHTML="It's Draw";
-        termination = true;
+        termination = true; 
     }
 
 }
